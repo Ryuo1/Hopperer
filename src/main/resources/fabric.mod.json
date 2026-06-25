@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "hopperer",
+    "version": "1.0.0",
+    "name": "Hopperer",
+    "description": "A server-side mod that speeds up specific hoppers without breaking vanilla redstone!",
+    "authors": [
+        "ryuomuse"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/hopperer",
+        "sources": "https://github.com/Ryuo1/Hopperer"
+    },
+    "license": "MIT",
+    "icon": "assets/hopperer/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.hopperer.HoppererMod"
+        ]
+    },
+    "mixins": [
+        "hopperer.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.3",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}

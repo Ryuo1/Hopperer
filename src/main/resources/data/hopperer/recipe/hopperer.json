@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "ICI",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "B": "minecraft:iron_block",
+    "C": "minecraft:chest"
+  },
+  "result": {
+    "id": "minecraft:hopper",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "super_hopper": true
+      },
+      "minecraft:custom_name": {
+        "text": "Super Hopper",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+    }
+  }
+}
